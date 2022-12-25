@@ -1,0 +1,15 @@
+id,created_at,first_name,last_name,email,cell_phone,country,state,street,number,additionals
+36,2018-01-26 03:29:13.000000 UTC,Mariana,Góes,mariana@meu_email.com,9 7324-4293,Brasil,,,,Apto 25
+95,2018-10-01 11:35:59.000000 UTC,Mariana,Rosa,mariana@usuario.com,9 3139-2145,Brasil,,,,
+0,2017-11-01 14:45:41.000000 UTC,Marta,Jesus,,9 9102-7834,Brasil,Acre,,,Conjunto 16
+4,2018-08-06 07:24:16.000000 UTC,Romário,Teixeira,,9 3093-6522,Brasil,Bahia,Praça 56 do Estado Bahia,191.0,Apto 12
+97,2018-07-04 18:45:41.000000 UTC,Marta,Góes,marta@teste.com,9 4102-4352,Brasil,Paraná,Rua 61 do Estado Paraná,402.0,Apto 24
+75,2018-06-21 14:28:03.000000 UTC,Marta,Abreu,,9 9024-3467,Brasil,Roraima,Avenida 67 do Estado Roraima,410.0,Conjunto 23
+11,2018-05-16 03:39:52.000000 UTC,James,Albuquerque,,9 2430-5905,Brasil,Sergipe,Rua 30 do Estado Sergipe,229.0,
+23,2017-10-26 00:35:22.000000 UTC,Maria,Pires,,9 8229-1067,Brasil,Amazonas,Avenida 80 do Estado Amazonas,581.0,
+41,2018-11-30 17:44:09.000000 UTC,Maria,Morais,maria@usuario.com,9 1519-4181,Brasil,Pernambuco,Avenida 69 do Estado Pernambuco,633.0,
+10,2017-12-16 15:41:00.000000 UTC,Mariana,Alves,mariana@meu_email.com,9 1846-6377,Brasil,Santa Catarina,,,
+38,2018-09-01 09:33:57.000000 UTC,Marcelo,Mendes,,9 6773-1560,Brasil,Espírito Santo,Avenida 64 do Estado Espírito Santo,213.0,
+5,2018-01-05 17:20:49.000000 UTC,Marcelo,Barroso,,9 2830-2088,Brasil,Rio Grande do Sul,Rua 28 do Estado Rio Grande do Sul,805.0,Conjunto 13
+72,2018-01-29 03:19:24.000000 UTC,Neymar,Elísio,neymar@teste.com,9 5373-1785,Brasil,Rio Grande do Sul,Rua 49 do Estado Rio Grande do Sul,929.0,
+76,2018-04-16 04:53:31.000000 UTC,Romário,Rosa,romário@meu_email.com,9 8710-8305,Brasil,Rio Grande do Sul,Praça 75 do Estado Rio Grande do Sul,110.0,Conjunto 10
