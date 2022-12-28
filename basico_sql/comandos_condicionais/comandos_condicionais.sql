@@ -50,3 +50,22 @@ select
   if (name = 'Moda e Acessórios','Sim, é moda e acessorios', if(name = 'Livros','Sim, são livros', 'Não encontrado')) as ifi
 from ecommerce.categories;
 
+#coalesce
+select
+  id,
+  state,
+  first_name,
+  email,
+coalesce(state,'Opa, estado nulo') as state2
+from ecommerce.customers;
+
+select
+  id,
+  state,
+  first_name,
+  email,
+  number,
+  additionals,
+coalesce(cast(number as string),additionals) as primeiro_nulo,
+coalesce(cast(number as string),additionals,'não encontrado') as primeiro_nulo2
+from ecommerce.customers
