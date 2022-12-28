@@ -29,3 +29,24 @@ end as regiao
 from ecommerce.customers
 where state is not null
 
+#case
+select
+  id,
+  name,
+  case when name = 'Moda e Acessorios' then 'Sim, é moda e acessorios' end as caso1
+from ecommerce.categories;
+
+# if
+select
+  id,
+  name,
+  if (name = 'Moda e Acessórios','Sim, é moda e acessorios', if(name = 'Livros','Sim, são livros', 'Não encontrado')) as ifi
+from ecommerce.categories;
+
+select
+  id,
+  name,
+  if(id between 0 and 5, 'entre 0 e 5', 'maior que cinco'),
+  if (name = 'Moda e Acessórios','Sim, é moda e acessorios', if(name = 'Livros','Sim, são livros', 'Não encontrado')) as ifi
+from ecommerce.categories;
+
