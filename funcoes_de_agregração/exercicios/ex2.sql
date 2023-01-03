@@ -4,7 +4,7 @@
 #forma decrescente.
 
 select
-  count(id) as quantidade_de_pedidos,
+  count(status) as quantidade_de_pedidos,
   format_timestamp("%D",created_at) as dia
 from ecommerce.orders
 group by dia
