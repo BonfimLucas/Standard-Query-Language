@@ -4,10 +4,11 @@
 #forma decrescente.
 
 select
-  count(status) as quantidade_de_pedidos,
+  count(id) as quantidade_de_pedidos,
+  status
   format_timestamp("%D",created_at) as dia
 from ecommerce.orders
-group by dia
+group by status, dia
 order by dia desc
 
 
