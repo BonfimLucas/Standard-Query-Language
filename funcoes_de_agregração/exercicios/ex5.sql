@@ -9,4 +9,4 @@ select
 from from bigquery-public-data.covid19_italy.data_by_region
 where region_name = 'Toscana'
 group by dia
-order by dia asc
+order by dia asc;
