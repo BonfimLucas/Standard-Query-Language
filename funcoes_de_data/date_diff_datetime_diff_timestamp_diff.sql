@@ -1,7 +1,9 @@
 # date_diff, datetime_diff, timestamp_diff
 select
   date_diff('2020-08-05','2020-08-01', day) as exemplo1,
+
   datetime_diff('2020-08-05T17:00:00','2020-08-05T14:00:00', HOUR) as exemplo2,
+  
   timestamp_diff('2020-08-05T17:30:00','2020-08-05T17:00:00', minute) as exemplo3;
 
 select
